@@ -1,0 +1,1686 @@
+body{
+    background:white;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+  
+  }
+  div.message{
+    width: 100%;
+    height: 100%;
+    margin-left: -5%;
+   background-color:rgb(32, 32, 32);
+   
+  }
+  span.online{
+    width:10px;
+    display: block;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(1, 158, 1);
+    float: right;
+    margin-top: -10px;
+  }
+  div.message div{
+    display:block;
+  }
+  .principal-premier{
+    vertical-align: top;
+    width: 40%;
+    height:650px;
+    background:black;
+    border-radius: 5px;
+  }
+  .principal-statut{
+    vertical-align: top;
+    width: 40%;
+    height:650px;
+    background:transparent;
+    border-radius: 5px;
+  }
+  .principal-deux{
+    vertical-align: top;
+    width: 40%;
+    height:640px;
+    background:transparent;
+    border-radius: 5px;
+   
+  }
+  div.principalbas{
+    width: 100%;
+    position:absolute;
+    bottom:0%;
+    left:-2%;
+    display: inline-block;
+  }
+  span.etat{
+    width:60px;
+    position:relative;
+    margin-left: 60%;
+  }
+  span.etat span{
+    display: inline-block;
+  }
+  span.heure{
+    display: block;
+    width: 30px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    padding: 5px 0px 5px 5px;
+   
+  }
+  span.temps{
+    width: 60px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 80%;
+  }
+  span.icon-eye{
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+  }
+  span.icon-ok-6{
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+  }
+  
+  a.inscription{
+    text-decoration: none;
+    color:rgb(0, 89, 255);
+    font-size: 20px;
+  }
+  div.messagesend{
+    max-width:200px;
+    background:linear-gradient(0deg,#155472 0% ,#155472 100%);
+    box-shadow:none;
+    border: none;
+    border-radius: 15px;
+    position:relative;
+    right: -22%;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  img.photouser{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+  }
+  div.messagereceved{
+    max-width:200px;
+    word-wrap: break-word;
+    background: black;
+    color: white;
+    box-shadow:none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    left: -13%;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  p.date{
+    color: gray;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    margin-top: -3px;
+    margin-right: 5px;
+  }
+  p.dates{
+    color: gray;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+    margin-top: -3px;
+    margin-left: 5px;
+  }
+  div#principalcentre{
+    overflow:auto;
+    height: 500px;
+    width:30%;
+   position:absolute;
+   bottom:12%;
+   left: 32%;
+    background:transparent;
+    
+  }
+  
+  div.principalbas p{
+    display: inline-block;
+  }
+  input[type="text"]{
+    width:350px;
+    height: 40px;
+    background:  rgb(0, 0, 0);
+    box-shadow: none;
+    border: none;
+    border-radius: 50px;
+    display: block;
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 7px;
+    text-align: center;
+  }
+  span.sam{
+    color: red;
+    font-size: 20px;
+  }
+  button[type="submit"]{
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(0deg,#155472 0% ,#155472 100%);
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    font-size: 25px;
+    color:gainsboro;
+  }
+
+  /*le css du log in de chance art*/
+  img.intro{
+      width: 150px; 
+      height: 150px;
+      margin-top: 70px;
+      margin-bottom: 20px;
+      position: relative;
+      left: -2%;
+  }
+  p.ggg{
+    color: red;
+  }
+  div.login-content{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  div.login{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    top:10%;
+  }
+ 
+  input.login[type="email"],input.login[type="password"],input.login[type='text']{
+    width: 300px;
+    height: 50px;
+    background:transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gainsboro;
+    display: block;
+    color:gray;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    text-align:left;
+  }
+  input.login[type="submit"]{
+    width:100%;
+      height: 50px;
+      background:linear-gradient(0deg,rgb(0, 89, 255) 0% ,rgb(0, 89, 255) 100%);
+      border-radius: 20px;
+      border: none;
+      font-size: 25px;
+      color:gainsboro;
+  }
+  
+  img.login{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10%;
+  margin-top: 10px;
+    float: left;
+  
+  }
+  span.login{
+  font-size: 50px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top:0%;
+  
+  }
+  div.statut{
+    width: 80%;
+    height: 80px;
+    overflow:hidden;
+  }
+  
+  div.statut div{
+    display: inline-flex;
+  }
+  div.photo{
+    width: 79%;
+    height: 80px;
+  }
+  div.photo a{
+    margin-right: 18px;
+  }
+  
+  
+  div.user{
+    background:none;
+    width: 90%;
+    height: 500px;
+    position:relative;
+    left: -2%;
+    bottom:-0%;
+    overflow: auto;
+    border:none;
+    border-radius: 0px;
+  }
+  li{
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left;
+  }
+  div.discution{
+    width: 95%;
+    height: 60px;
+    overflow: hidden;
+    background: black;
+    border-radius:none;
+    margin-left: -3%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: none;
+    animation: logi 0.5s linear ;
+  }
+  @keyframes log {
+    0%{
+      transform: translateY(80px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    
+  }
+  a.button{
+    width: 100px;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(0, 89,255);
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+  margin-top: -15px;
+  float: right;
+  }
+  div.menu{
+    background: rgb(0, 0, 0,0.75);
+    width: 40%;
+    height:50px ;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0%;
+  }
+  div.barre{
+    height: 50%;
+   
+  }
+  div.menu a{
+    display: inline-block;
+    margin-top:6px;
+  }
+  a.contact{
+    color: white;
+    display: block;
+    background: rgb(32, 32, 32);
+    padding: 5px 5px 5px 5px;
+   
+    border-radius: 5px;
+    width: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.contacts{
+    color: white;
+    display: block;
+    background: rgb(0, 89, 255);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.discussion{
+    color: white;
+    display: block;
+    background: rgb(0, 89, 255);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.discussions{
+    color: white;
+    display: block;
+    background: rgb(32, 32, 32);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.actif{
+    color: white;
+    display: block;
+    background: rgb(32, 32, 32);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.ajouter{
+    color: white;
+    display: block;
+    background: rgb(32, 32, 32);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a.best{
+    text-decoration: none;
+  }
+  a.ajoute{
+    color: white;
+    display: block;
+    background: rgb(0, 89, 255);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  div.discution div{
+    display: inline-block;
+  }
+  div.photo-user{
+    width: 20%;
+    height: 60px;
+    vertical-align: top;
+  }
+  div.id-user{
+    width: 75%;
+    height:60px ;
+    vertical-align: top;
+    overflow:hidden;
+    
+  }
+  img.user{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  span.user-pseudo{
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: block;
+    width:100%;
+    
+  }
+  span.user-message{
+    margin-top: -10px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gainsboro;
+    text-align:left;
+    display: block;
+    width:100%;
+   
+  }
+  
+  span.user-text{
+    margin-top: -15px;
+    margin-left: 12%;
+       font-size: 12px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: gainsboro;
+       text-align:left;
+       display: block;
+       width:70%;
+       height: 20px;
+      overflow: auto;
+      word-wrap: break-word;
+     }
+     span.user-texts{
+         font-size: 12px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: gainsboro;
+         text-align:left;
+         display: block;
+         width:70%;
+         height: 20px;
+        overflow: auto;
+        word-wrap: break-word;
+       }
+     span.icon-eye-6{
+       float: right;
+       color: white;
+       margin-right: 8%;
+       margin-top: -20px;
+     }
+     .icon-ok-circle{
+       float: right;
+       color: white;
+       margin-right: 8%;
+       margin-top: -20px;
+     }
+  span.user-date{
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:gray;
+    text-align: right;
+    display: block;
+    width:100%;
+    animation: samis 1s linear;
+  }
+  
+  img.login-message{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    margin-top:10px;
+    margin-left: 20px;
+  
+  }
+  div.principalhaut{
+    width:100%;
+    height: 100px;
+    overflow:hidden;
+    background:none;
+  }
+  p.login-message{
+    font-size: 30px;
+    overflow:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+    margin-top:5px;
+    text-align: left;
+  }
+  p.bienvenue{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px 1px gray;
+  } 
+  a.retour{
+    text-decoration: none;
+    font-size: 60px;
+    margin-right: 1px;
+    margin-left: 50px;
+    float: left;
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+  }
+  a.retour::before{
+    content: '<';
+    font-size: 50px;
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+  }
+  
+  span.nombre{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+  position: absolute;
+  }
+  div.search{
+    width: 80%;
+    border-radius: 50px;
+    height: 35px;
+    background: rgb(32, 32, 32);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+  div.sear{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+  }
+  input[type='search']{
+    font-size: 15px;
+    border: none;
+    color:gainsboro;
+    border-radius: 50px;
+    height: 35px;
+    text-align: left;
+    width: 95%;
+  }
+  input.search[type='submit']{
+    font-size: 15px;
+    border: none;
+    color:gainsboro;
+    background: none;
+    box-shadow: none;
+  
+  }
+  a.icon-search{
+    font-size: 20px;
+    text-decoration: none;
+    color: gainsboro;
+    vertical-align: top;
+  }
+  a.button:active{
+    background: transparent;
+    border: 1px solid gainsboro;
+    }
+  div.user-online{
+    color:gray;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    left:-9%;
+    top:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div.user-onlines{
+    color:gray;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    left:-10%;
+    top:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  span.user-onlines{
+    display: block;
+    color:gray;
+   width: 100%;
+   height: 15px;
+   text-align: left;
+   transform: translateX(0px);
+  }
+  span.actif-user{
+    display: block;
+    border-radius: 50%;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+  }
+  
+  img.logins{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   margin-top: 2px;
+   margin-left: 2px;
+   float: left;
+   border: 1px solid black;
+  }
+  div.affichage{
+    width: 100%;
+    height: 440px;
+  }
+  div.line{
+    width: 100%;
+    height: 5%;
+  }
+  div.statut-affichage{
+    width:100%;
+    height:500px;
+  }
+  div.com{
+    width:100%;
+    height:100%;
+    background: red;
+    position: absolute;
+  }
+  img.statut{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 30.5%;
+    bottom: 0%;
+    z-index: -1;
+  }
+  p.legend{
+    width: 30%;
+    height: 30px;
+    color:white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid white;
+    position:absolute;
+    bottom:10%;
+    left:35%;
+  }
+  div.line{
+    width: 30%;
+    height: 5px;
+    background: white;
+    animation: line 5s linear;
+    float: left;
+  }
+  @keyframes line {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  .nombre-message{
+    float: right;
+    color: white;
+    margin-right: 8%;
+    font-size: 10px;
+    margin-top: -20px;
+    background:#155472;
+    padding: 2px 5px 2px 5px ;
+    border-radius: 50%;
+  }
+  @media all and (max-width: 980px) {
+    body{
+      background:black;
+      width: 100%;
+      height: 100%;
+      overflow:hidden;
+      margin: 0px;
+      padding: 0px;
+    
+    }
+    div.user-online{
+      color:gray;
+      width: 100%;
+      height: 15px;
+      margin-left: 5px;
+      position: absolute;
+      left:-8%;
+      top:55%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    div.user-onlines{
+      color:gray;
+      width: 100%;
+      vertical-align: top;
+      height: 15px;
+      font-size: 12px;
+      position: absolute;
+      margin-left: 5px;
+      left:-11%;
+      top:55%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .principal-statut{
+      vertical-align: top;
+      width: 100%;
+      height:100%;
+      background:transparent;
+      border-radius: 5px;
+    }
+    img.statut{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0%;
+      bottom: 0%;
+      z-index: -1;
+    }
+    p.legend{
+      width: 100%;
+      height: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: -1px;
+      position: relative;
+      bottom: -80%;
+      background:grey;
+      opacity: 0.5;
+    }
+    span.user-onlines{
+      display: block;
+      color:gray;
+     width: 100%;
+     transform: translateX(-70px);
+     height: 15px;
+     text-align: left;
+     background:blue;
+    }
+    div.user-online{
+      color:gray;
+      width: 400px;
+      height: 15px;
+      font-size: 12px;
+      position: absolute;
+     left:120px;
+     top:48px;
+      text-align: left;
+      padding: 0px;
+    }
+    div.menu{
+      width:100%;
+      height: 50px;
+      padding-top: 10px;
+     background: rgb(0, 0, 0,0.75);
+     position: absolute;
+     bottom: 0%;
+   
+    }
+    div.barre{
+      height:50%;
+    }
+    div.user{
+      width: 100%;
+      height:500px;
+      position:relative;
+      bottom:10%;
+      left: 2px;
+      overflow:auto;
+      border:none;
+      border-radius: 0px;
+     
+    }
+    a.button{
+      width:25%;
+      display: block;
+      padding: 5px 5px 5px 5px;
+      background-color: rgb(0, 89,255);
+      text-decoration: none;
+      font-size: 16px;
+      color: white;
+      border-radius: 5px;
+    margin-top: -20px;
+    float: right;
+    }
+    a.button:active{
+    background: transparent;
+    border: 1px solid gainsboro;
+    }
+    a.contact{
+      color: white;
+      display: block;
+      background: rgb(32, 32, 32);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      position: relative;
+      width: 20%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.contacts{
+      color: white;
+      display: block;
+      background: rgb(0, 89, 255);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 20%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.discussion{
+      color: white;
+      display: block;
+      background: rgb(0, 89, 255);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 35%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.icon-back{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 1px;
+      margin-left: 10px;
+      margin-top: 15px;
+      float: left;
+      color:#155472;
+      text-decoration: none;
+    }
+    a.icon-videocam{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 1px;
+      margin-left: 5px;
+      float:right;
+      color:#155472;
+      text-decoration: none;
+    }
+    a.icon-phone{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 1px;
+      margin-left: 5px;
+     float:right;
+      color:#155472 ;
+      text-decoration: none;
+    }
+    a.discussions{
+      color: white;
+      display: block;
+      background: rgb(32, 32, 32);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 35%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.actif{
+      color: white;
+      display: block;
+      background: rgb(32, 32, 32);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 20%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.ajouter{
+      color: white;
+      display: block;
+      background: rgb(32, 32, 32);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 20%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a.ajoute{
+      color: white;
+      display: block;
+      background: rgb(0, 89, 255);
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+      width: 20%;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  span.effet-deux::before{
+    content: "LOG IN";
+    width: 350px;
+    height: 100px;
+    display: block;
+    z-index:1;
+    border-radius: 50px;
+    padding-top:80px;
+    font-size: 50px;
+    background:transparent; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: effet-deux 10s ease-out ;
+   
+  }
+  @keyframes effet-deux {
+   0%{ 
+    content: "MASOLO";
+    transition: opacity ease-out;
+    transform: translateY(100px);
+  } 49%{
+      transform: translatey(100px);
+  }
+  50%{
+      
+      transform: translatey(120px);
+  }
+  51%{
+      transform: translatey(100px);
+      content: "TCHAT";
+  }
+  90%{
+        content: "MASOLO TCHAT";
+        transition: opacity ease-out;
+        transform: translateY(90px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+    
+  }
+  div.effet-deux-suite{
+    content: "";
+    margin-top: 100px;
+    width: 0px;
+    height:10px;
+    font-size: 50px;
+    position:relative;
+    top: 100%;
+    background:red; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: effet-deuxx 10s ease-out ;
+    transition: all ease-out;
+  }
+  @keyframes effet-deuxx {
+  
+    0%{
+       
+        width:0px;
+    } 49%{
+        transform: translatey(0px);
+    }
+    50%{
+        
+        width:320px;
+        transform: translatey(-20px);
+    }
+    51%{
+        transform: translatey(0px);
+    }
+    88%,100%{
+        width: 0px;
+    }
+  }
+  
+  div.effet-general{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+   background:transparent;
+   
+  }
+  
+  div.effet{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    background-position: center;
+    overflow:hidden;
+  
+  }
+  div.effet div{
+    display:block;
+  }
+    div.message{
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      margin-left: 0%;
+     background: transparent;
+     overflow:auto;
+     
+    }
+    div.message div{
+      display:block;
+    }
+    .principal-premier{
+      vertical-align: top;
+      width: 100%;
+      height:100%;
+      background:black;
+     border-radius: 0px;
+    }
+    .principal-deux{
+      vertical-align: top;
+      width: 100%;
+      height:100%;
+      background:black;
+     border-radius: 0px;
+     
+    }
+   
+    div.messagesend{
+      max-width:150px;
+      background:linear-gradient(0deg,#155472 0% ,#155472 100%);
+      box-shadow:none;
+      border: none;
+      border-radius:15px 3px 15px 15px ;
+      position:relative;
+      left: 25%;
+      padding: 5px 5px 5px 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      word-wrap: break-word;
+      color:rgb(255, 255, 255);
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img.photouser{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      float: left;
+      margin-top: 5px;
+    }
+    img.photoid{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      float: left;
+      margin-top: 5px;
+    }
+    div.messagereceved{
+      max-width:150px;
+      background: rgb(32, 32, 32);
+      color: white;
+      box-shadow:none;
+      border: none;
+      border-radius: 3px 15px 15px 15px;
+      position: relative;
+      left: -20%;
+      padding: 5px 5px 5px 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      word-wrap: break-word;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p.date{
+      color: gray;
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: right;
+      margin-top: -3px;
+      margin-right: 5px;
+    }
+    p.dates{
+      color: gray;
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+      margin-top: -3px;
+      margin-left: 5px;
+    }
+    div#principalcentre{
+      overflow:auto;
+      max-height:72%;
+      width:100%;
+      position:absolute;
+      bottom:14%;
+      left: 0%;
+      background:transparent;
+    }
+    
+    div.principalbas{
+      width: 100%;
+      position:absolute;
+      bottom: 0%;
+      display: inline-block;
+      background: transparent;
+      padding-top: 2%;
+    }
+    div.principalbas p{
+      display: inline-block;
+    }
+    p.input{
+      float: left;
+      width: 70%;
+      height: 20%;
+      margin-left: 5%;
+    }
+    P.button{
+      position: absolute;
+      bottom: 5%;
+      left: 80%;
+    }
+    input[type="text"]{
+      width:100%;
+      height: 30px;
+      background:  rgb(32, 32, 32);
+      box-shadow: none;
+      border: none;
+      overflow: auto;
+      word-wrap: break-word;
+      border-radius: 50px;
+      display: block;
+      color: gray;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-right: 7px;
+      text-align:left;
+    }
+    button[type="submit"]{
+      width: 35px;
+      padding-left:0px;
+      height: 35px;
+      position: absolute;
+      bottom: 15%;
+      background:linear-gradient(90deg,#155472 0%,#155472 100%);
+      border-radius: 50%;
+      box-shadow: none;
+      font-size: 25px;
+      color:white;
+    }
+    div.login-content{
+      width: 80%;
+      height: 100px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    img.intro{
+      width: 150px; 
+      height: 150px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      position: relative;
+      left: -2%;
+  }
+    div.login{
+      width: 100%;
+    height: 250px;
+    position: relative;
+    vertical-align: top;
+    position:relative;
+   
+  }
+  span.login{
+    font-size: 30px;
+  }
+    
+    input.login[type="email"],input.login[type="password"],input.login[type="text"]{
+      width: 100%;
+      height: 30px;
+      background:transparent;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid gainsboro;
+      display: block;
+      color:gray;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-right: 15px;
+      text-align:left;
+    }
+    input.login[type="submit"]{
+      width:100%;
+      height: 50px;
+      background:linear-gradient(0deg,rgb(0, 89, 255) 0% ,rgb(0, 89, 255) 100%);
+      border-radius: 20px;
+      border: none;
+      font-size: 20px;
+      color:gainsboro;
+      cursor: pointer;
+    }
+   
+    div.statut{
+      width: 80%;
+      height: 80px;
+      overflow:hidden;
+    }
+    
+    div.statut div{
+      display: inline-flex;
+    }
+    div.photo{
+      width: 79%;
+      height: 80px;
+    }
+    div.photo a{
+      margin-right: 18px;
+    }
+   
+     img.login{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+   
+      margin-left: 10%;
+      float: left;
+  
+    }
+    span.login{
+    font-size: 26px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:2%;
+    margin-left: -30px;
+  
+    }
+    li{
+      font-size: 30px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 10px;
+      text-decoration: none;
+      text-align: left;
+    }
+    div.discution{
+      width: 95%;
+      height: 60px;
+      overflow: hidden;
+      background: black;
+      border-radius:none;
+      margin-left: -3%;
+      border-radius: 5px;
+      border: none;
+      margin-top: 5px;
+      box-shadow: none;
+    }
+    
+    div.discution div{
+      display: inline-block;
+    }
+    div.photo-user{
+      width: 20%;
+      height: 60px;
+      vertical-align: top;
+    }
+    div.id-user{
+      width: 75%;
+      height:60px ;
+      vertical-align: top;
+      overflow:hidden;
+      
+    }
+    img.user{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    span.user-pseudo{
+      margin-top: 15px;
+      margin-left: 15px;
+      text-align: left;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      display: block;
+      width:100%;
+      
+    }
+    span.user-message{
+     margin-top: -10px;
+      margin-left: 15px;
+      font-size: 12px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: gainsboro;
+      text-align:left;
+      display: block;
+      width:100%;
+     overflow: auto;
+     word-wrap: break-word;
+    }
+    span.user-text{
+   margin-top: -17px;
+   margin-left: 20%;
+      font-size: 12px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: gainsboro;
+      text-align:left;
+      display: block;
+      width:60%;
+      height: 20px;
+     overflow: auto;
+     word-wrap: break-word;
+    }
+    span.icon-eye-6{
+      float: right;
+      color: white;
+      margin-right: 8%;
+      margin-top: -20px;
+    }
+    .icon-ok-circle{
+      float: right;
+      color: white;
+      margin-right: 8%;
+      margin-top: -20px;
+    }
+    .nombre-message{
+        float: right;
+        color: white;
+        margin-right: 8%;
+        font-size: 10px;
+        margin-top: -20px;
+        background:#155472;
+        padding: 2px 5px 2px 5px ;
+        border-radius: 50%;
+    }
+    span.user-date{
+      margin-top: -10px;
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:gray;
+      text-align: right;
+      display: block;
+      width:100%;
+      animation: samis 1s linear;
+    }
+    
+    img.login-message{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: relative;
+      float: left;
+      margin-top:10px;
+      margin-left: 5px;
+    
+    }
+    div.principalhaut{
+      width:100%;
+      height: 18%;
+      overflow:hidden;
+      position: absolute;
+      top: 0%;
+    }
+    p.login-message{
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+      margin-left: 5px;
+      margin-top: 0px;
+    }}
+    p.bienvenue{
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      text-align: center;
+      text-shadow: 1px 1px 1px 1px gray;
+    } 
+    a.icon-back{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 1px;
+      margin-left:5px;
+      margin-top: 15px;
+      float: left;
+      color:#155472;
+      text-decoration: none;
+    }
+    a.icon-videocam{
+      text-decoration: none;
+      font-size: 30px;
+      margin-left: 5px;
+     
+      color:#155472;
+      text-decoration: none;
+    }
+    a.icon-phone{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 1px;
+      margin-left: 5px;
+      color:#155472 ;
+      text-decoration: none;
+    }
+    
+    span.nombre{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+    position: absolute;
+    }
+    div.search{
+    width: 88%;
+    border-radius: 50px;
+    height: 35px;
+    background: rgb(32, 32, 32);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+    div.sear{
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    }
+    input[type='search']{
+      font-size: 15px;
+     
+      border: none;
+      color:gainsboro;
+      background: none;
+      text-align: left;
+    }
+    input.search[type='submit']{
+      font-size: 15px;
+      border: none;
+      color:gainsboro;
+      background: none;
+      box-shadow: none;
+    
+    }
+    a.icon-search{
+      font-size: 20px;
+      text-decoration: none;
+      color: gainsboro;
+      vertical-align: top;
+    }
+   
+  
+  span.effet-deux::before{
+    content: "LOG IN";
+    width: 350px;
+    height: 150px;
+    display: block;
+    z-index:1;
+    border-radius: 50px;
+    padding-top:80px;
+    font-size: 60px;
+    background:transparent; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: effet-deux 10s ease-out ;
+   
+  }
+  @keyframes effet-deux {
+   0%{ 
+    content: "MASOLO";
+    transition: opacity ease-out;
+    transform: translateY(150px);
+  } 49%{
+      transform: translatey(150px);
+  }
+  50%{
+      
+      transform: translatey(170px);
+  }
+  51%{
+      transform: translatey(150px);
+  }
+  90%{
+        content: "MASOLO";
+        transition: opacity ease-out;
+        transform: translateY(100px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+    
+  }
+  div.effet-deux-suite{
+    content: "";
+    margin-top: 100px;
+    width: 0px;
+    height:10px;
+    font-size: 50px;
+    position:relative;
+    top: 100%;
+    background:red; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: effet-deuxx 10s ease-out ;
+    transition: all ease-out;
+  }
+  @keyframes effet-deuxx {
+  
+    0%{
+       
+        width:0px;
+    } 49%{
+        transform: translatey(0px);
+    }
+    50%{
+        
+        width:320px;
+        transform: translatey(-20px);
+    }
+    51%{
+        transform: translatey(0px);
+    }
+    88%,100%{
+        width: 0px;
+    }
+  }
+  
+  div.effet-general{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+   background:transparent;
+   
+  }
+  
+  div.effet{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    background-position: center;
+    overflow:hidden;
+  
+  }
+  div.effet div{
+    display:block;
+  }
+  p.inscription{
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  span.ami{
+    width:25%;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  margin-top: -20px;
+  float: right;
+  
+  }
+  div.statut{
+    width: 90%;
+    height: 90px;
+    overflow: auto;
+  }
+  div.statut-interne{
+    display: inline-block;
+    height: 70px;
+  }
+  a.bests{
+    text-decoration: none;
+    float: left;
+    background:linear-gradient(45deg, rgb(255, 230, 0) 1%,red 50%,red 100%);
+    display: block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin-left: 2px;
+  }
+  div.camera{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin-left: 2px;
+    color: white;
+    background: rgb(32, 32, 32);
+    overflow: hidden;
+    align-items: center;
+      justify-content: center;
+  }
+  
+  a.icon-camera{
+  
+    color: white;
+    font-size: 33px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  div.reponse{
+    width:40%;
+    height: 70px;
+    position:absolute;
+    background: rgb(0, 0, 0,0.15);
+    left: 30.5%;
+   bottom:0%;
+   color: white;
+  }
+  div.reponse p{
+    display: inline-block;
+  }
+  input.reponse[type="text"]{
+    width: 350px;
+    height: 30px;
+    font-size: 15px;
+    color:white;
+    background: transparent;
+    border-radius: 50px;
+    border: 2px solid white;
+    opacity:1;
+  }
+  input.reponse[type="submit"]{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color:white;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    opacity:1;
+  }
+  div.actus{
+    width: 100%;
+    background: #155472;
+  }

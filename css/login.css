@@ -1,0 +1,200 @@
+body.ppp{
+    background:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.login{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+div.image{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+
+center.login{
+    color:black;
+    font-size: 20px;
+    margin-bottom: 0%;
+    }
+div.login{
+    width: 80%;
+    margin-top: 12%;
+    padding-top: 25%;
+}
+div.logins{
+    width: 80%;
+    margin-top: 12%;
+    padding-top: 25%;
+}
+h2{
+    color: beige;
+}
+p.kbg{
+    color:#fff;
+    text-align: left;
+}
+div#login{
+    background:rgb(0,0,0,.5) ;
+    width: 350px;
+    height: 420px;
+    margin-top: 7%;
+}
+div#logins{
+    background:white ;
+    width: 350px;
+    height: 420px;
+    margin-top: 7%;
+}
+div.login input{
+    width: 100%;
+    margin-bottom:5px;
+}
+div.login input[type="text"], input[type="Email"],input[type="password"]{
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+}
+div.login input[type="submit"]{
+    border: none;
+    background:goldenrod;
+    color: black;
+    height: 40px;
+    font-size:18px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+div.login input[type="submit"]:hover{
+    background:#efed40 ;
+    cursor: pointer;
+}
+
+a.kbg{
+    width: 100%;
+    background:red;
+    color:black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all -5s;
+    margin-top: 40px;
+}
+
+a.kbg:hover{
+    transform: translate(0,-12px);
+    box-shadow: 10px -10px 25px 0px rgba(143,64, 248,.25) -10px 10px 25px 0px rgba(39,200, 255,.5);
+    background: yellow;
+}
+p.ggg{
+    color:red;
+}
+@media all and (max-width: 680px){
+body.ppp{
+    background:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+img.login{
+    width: 120px;
+    height: 120px;
+}
+div.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+center.login{
+    color:black;
+    font-size: 20px;
+    margin-bottom: 0%;
+    }
+div.login{
+    width: 80%;
+    margin-top: 12%;
+    padding-top: 25%;
+}
+h2{
+    color: beige;
+}
+p.kbg{
+    color:#fff;
+    text-align: left;
+}
+div#login{
+    background:rgb(0,0,0,.5) ;
+    width: 90%;
+    height: 350px;
+    margin-top: 20%;
+}
+div#logins{
+    background:white ;
+    width:90%;
+    height: 400px;
+    margin-top: 20%;
+}
+div.login input{
+    width: 100%;
+    margin-bottom:5px;
+}
+div.login input[type="text"], input[type="Email"],input[type="password"]{
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    border-radius:0px;
+}
+div.login input[type="submit"]{
+    border: none;
+     background:linear-gradient(0deg,goldenrod 0% ,goldenrod 100%);
+    color: black;
+    height: 40px;
+    font-size:18px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+div.login input[type="submit"]:hover{
+    background:linear-gradient(0deg,#efed40  0% ,#efed40  100%);
+    cursor: pointer;
+}
+
+a.kbg{
+    width: 100%;
+    background:red;
+    color:black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all -5s;
+    margin-top: 40px;
+}
+
+a.kbg:hover{
+    transform: translate(0,-12px);
+    box-shadow: 10px -10px 25px 0px rgba(143,64, 248,.25) -10px 10px 25px 0px rgba(39,200, 255,.5);
+    background: yellow;
+}
+p.ggg{
+    color:red;
+}}
+
+   
+
+   
